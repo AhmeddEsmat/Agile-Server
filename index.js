@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const router = require("./src/routes"); // used to handle routes
 const bodyParser = require("body-parser");
-// const cors = require('cors')
+const cors = require('cors')
 
 const app = express();
 const PORT = 3000;
