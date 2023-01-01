@@ -15,6 +15,7 @@ app.use(
     origin: [
       "https://peaceful-biscotti-be0eb6.netlify.app",
       "https://peaceful-biscotti-be0eb6.netlify.app/login",
+      "https://peaceful-biscotti-be0eb6.netlify.app/signup",
     ],
   })
 );
