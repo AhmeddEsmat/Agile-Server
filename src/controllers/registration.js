@@ -7,7 +7,6 @@ const registerUser = async (req, res) => {
     lastName: body.lastName,
     email: body.email,
     password: body.password,
-    role: body.role,
   });
   await newUser.save();
   res.send("New User Saved");
