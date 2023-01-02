@@ -16,6 +16,9 @@ app.use(
       "https://peaceful-biscotti-be0eb6.netlify.app",
       "https://peaceful-biscotti-be0eb6.netlify.app/login",
       "https://peaceful-biscotti-be0eb6.netlify.app/signup",
+      "https://roaring-tulumba-ecc642.netlify.app",
+      "https://roaring-tulumba-ecc642.netlify.app/login",
+      "https://roaring-tulumba-ecc642.netlify.app/signup",
     ],
   })
 );
