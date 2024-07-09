@@ -26,7 +26,7 @@ app.use(
 // app.use(express.urlencoded({ limit: "50mb", extended: true }))
 app.use(router);
 const uri =
-  "mongodb+srv://AhmeddEsmat:UTr6KxKWExyMf3Jm@cluster0.rulxadp.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://ahmedesmat2001:ZOalwidADaY1Nfwq@cluster0.xnyh698.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 class Database {
   constructor() {
     this._connect();
