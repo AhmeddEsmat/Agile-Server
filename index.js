@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const router = require("./src/routes"); // used to handle routes
 const bodyParser = require("body-parser");
-const cors = require('cors')
+const cors = require("cors");
 
 const app = express();
 const PORT = 3000;
@@ -26,7 +26,7 @@ app.use(
 // app.use(express.urlencoded({ limit: "50mb", extended: true }))
 app.use(router);
 const uri =
-  "mongodb+srv://ahmedesmat2001:ZOalwidADaY1Nfwq@cluster0.xnyh698.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://ahmedesmat2001:zKwH16EAfgPl9kIp@cluster0.xnyh698.mongodb.net/?retryWrites=true&w=majority";
 class Database {
   constructor() {
     this._connect();
